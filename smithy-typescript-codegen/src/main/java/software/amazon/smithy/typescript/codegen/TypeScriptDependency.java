@@ -40,8 +40,8 @@ public enum TypeScriptDependency implements Dependency {
 
     AWS_SDK_CLIENT_DOCGEN("devDependencies", "@smithy/service-client-documentation-generator", "^2.0.0", true),
     AWS_SDK_TYPES("dependencies", "@aws-sdk/types", true),
-    SMITHY_TYPES("dependencies", "@smithy/types", "^2.2.0", true),
-    AWS_SMITHY_CLIENT("dependencies", "@smithy/smithy-client", "^2.0.3", true),
+    SMITHY_TYPES("dependencies", "@smithy/types", "^2.2.2", true),
+    AWS_SMITHY_CLIENT("dependencies", "@smithy/smithy-client", "^2.0.5", true),
     INVALID_DEPENDENCY("dependencies", "@smithy/invalid-dependency", "^2.0.3", true),
     CONFIG_RESOLVER("dependencies", "@smithy/config-resolver", "^2.0.3", true),
     TYPES_NODE("devDependencies", "@types/node", "^14.14.31", true),
